@@ -1,0 +1,16 @@
+CREATE DATABASE User_DB
+
+GO
+
+USE User_DB
+
+GO
+
+CREATE TABLE [User](
+	[ID] int NOT NULL PRIMARY KEY,
+	Name VARCHAR(50) NOT NULL,
+	LastName VARCHAR(50) NOT NULL,
+	Email VARCHAR(50) NOT NULL,	
+	Address VARchar(50) NOT NULL,
+)
+
